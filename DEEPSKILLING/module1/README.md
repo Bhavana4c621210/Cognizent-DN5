@@ -41,3 +41,61 @@ Through this exercise, I gained a practical understanding of:
 
 Parupalli S D J Sri Bhavana
 
+
+
+
+# Exercise 2 - Factory Method Design Pattern
+
+## Overview
+
+This exercise demonstrates the implementation of the Factory Method Design Pattern in Java.
+
+The objective is to create different types of documents such as Word, PDF, and Excel using separate factory classes instead of creating objects directly in the client code.
+
+## Problem Statement
+
+A document management system needs to support multiple document types. To make the application flexible and easy to extend, the Factory Method Pattern is used to delegate object creation to specialized factory classes.
+
+## Classes Used
+
+### Document Interface
+
+* Document.java
+
+### Concrete Documents
+
+* WordDocument.java
+* PdfDocument.java
+* ExcelDocument.java
+
+### Factory Classes
+
+* DocumentFactory.java
+* WordFactory.java
+* PdfFactory.java
+* ExcelFactory.java
+
+### Test Class
+
+* FactoryTest.java
+
+## Output
+
+Opening Word Document
+
+Opening PDF Document
+
+Opening Excel Document
+
+## Learning Outcome
+
+Through this exercise, I learned:
+
+* Factory Method Design Pattern
+* Abstraction and Polymorphism
+* Object Creation through Factories
+* Extensible Software Design Principles
+
+## Author
+
+Parupalli S D J Sri Bhavana
